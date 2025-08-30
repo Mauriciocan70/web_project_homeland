@@ -7,58 +7,225 @@
     <meta name="description" content="Proyecto HTML.">
     <meta name="keywords" content="HTML, CSS, web, diseño, desarrollo">
     <title>De patria a patria</title>
-
-    <!-- Cargar normalize.css antes de tus estilos personalizados -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-oHDEc8XedLBxjvV+vG0MtbTPvPyHTTxRgAwFvER1hZhG2cVn0Rck23kWBFw2eEW0nM5M4njljrjP5G8f8v7pQA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./pages/index.css" >
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" >
-
-    <!-- Cargar fuentes -->
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
-
   <body>
     <div class="page">
       <header class="header">
-        <img src="./images/logo.png" alt="Logo de De patria a patria" class="logo" >
-        <section class="lead">
-          <p class="lead__branding">TRIPLETEN ART GALLERY</p>
-          <h1 class="lead__title">De patria a patria</h1>
-          <h2 class="lead__subtitle">
+        <img src="./images/Logo.png " alt="Logo" class="header__logo" />
+        <p class="header__paragraph">TRIPLETEN ART GALLERY</p>
+      </header>
+      <main class="content">
+        <section class="homeland-art">
+          <h1 class="homeland-art__title">De patria a patria</h1>
+          <p class="homeland-art__description">
             Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
-          </h2>
-          <div class="lead__content-image">
+          </p>
+          <img
+            src="./images/Kalegin_Michail.png"
+            alt="Imagen principal"
+            class="homeland-art__image"
+          />
+        </section>
+        <section class="homeland-story">
+          <p class="homeland-story__subtitle">
+            Conoce un poco mejor los lugares de los que proceden tus colegas en
+            línea
+          </p>
+          <p class="homeland-story__description">
+            Todo ser humano es un artista, un ser de la libertad, llamado a
+            participar en la transformación y reforma de las condiciones, el
+            pensamiento y las estructuras que conforman e influyen en nuestras
+            vidas.
+          </p>
+          <p class="homeland-story__author">— Joseph Beuys</p>
+          <p class="homeland-story__text">
+            La ciudad de TripleTen ha reunido a profesionales de diferentes
+            rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece
+            de presentar historias y fotografías de algunas de las personas que
+            dedican su tiempo y esfuerzo a hacer que los futuros profesionales
+            de la tecnología de esta ciudad se sientan como en casa. Cada uno de
+            nosotros tiene una historia única sobre el lugar del que procede. No
+            dudes en añadir a nuestra colección tu propia historia y una obra de
+            arte visual dedicada a tu ciudad natal. No importa de dónde seas,
+            nos alegra que seas nuestro vecino.
+          </p>
+        </section>
+        <section class="homeland-gallery">
+          <div class="homeland-gallery__container">
             <img
-              src="./images/background.jpg"
-              alt="Imagen en blanco y negro de un pueblo costero"
-              class="lead__image"
-            >
+              src="./images/Gallery_Image_1.png"
+              alt=""
+              class="homeland-gallery__image"
+            />
+            <img
+              src="./images/Gallery_Image_2.png"
+              alt=""
+              class="homeland-gallery__image"
+            />
+            <img
+              src="./images/Gallery_Image_3.png"
+              alt=""
+              class="homeland-gallery__image"
+            />
+            <img
+              src="./images/Gallery_Image_4.png"
+              alt=""
+              class="homeland-gallery__image"
+            />
+            <img
+              src="./images/Gallery_Image_5.png"
+              alt=""
+              class="homeland-gallery__image"
+            />
+            <img
+              src="./images/Gallery_Image_6.png"
+              alt=""
+              class="homeland-gallery__image"
+            />
+            <img
+              src="./images/Gallery_Image_7.png"
+              alt=""
+              class="homeland-gallery__image"
+            />
+            <img
+              src="./images/Gallery_Image_8.png"
+              alt=""
+              class="homeland-gallery__image"
+            />
           </div>
         </section>
-      </header>
+        <section class="homeland-places">
+          <div class="homeland-places__card-content">
+            <h2 class="homeland-places__card-title">Cricieth, Gales</h2>
 
-      <main class="content">
-        <section class="content__intro">
-          <h2 class="content__title">
-            Conoce un poco mejor los lugares de los que proceden tus colegas en línea
-          </h2>
-          <p class="content__text-main">
-            Todo ser humano es un artista, un ser de la libertad, llamado a participar en la transformación y reforma de las condiciones, el pensamiento y las estructuras que conforman e influyen en nuestras vidas.
-          </p>
-          <p class="content__text-author">— Joseph Beuys</p>
-          <p class="content__text-element">
-            La ciudad de TripleTen ha reunido a profesionales de diferentes rincones del mundo. Hoy, la Galería de Arte TripleTen se enorgullece de presentar historias y fotografías de algunas de las personas que dedican su tiempo y esfuerzo a hacer que los futuros profesionales de la tecnología de esta ciudad se sientan como en casa. Cada uno de nosotros tiene una historia única sobre el lugar del que procede. No dudes en añadir a nuestra colección tu propia historia y una obra de arte visual dedicada a tu ciudad natal. No importa de dónde seas, nos alegra que seas nuestro vecino.
-          </p>
+            <div class="homeland-places__card-header">
+              <p class="homeland-places__card-header-title">Artistas</p>
+              <p class="homeland-places__card-author">
+                Steffan Warren, editor jefe
+              </p>
+              <p class="homeland-places__card-author">
+                Kseniya Glagoleva, gerente de proyectos
+              </p>
+            </div>
+            <img
+              src="./images/Places_image_1.png"
+              alt=""
+              class="homeland-places__card-image"
+            />
+            <p class="homeland-places__card-text">
+              Las ruinas medievales del castillo de Cricieth dominan la ciudad
+              desde una roca que extiende sobre el mar. Se cree que fue
+              construido por Llewelyn el Grande en el S. XIII. 800 años después,
+              la autodenominada Perla de Gales en las costas de Snowdonia, se ha
+              convertido en un popular destino turístico durante los meses de
+              verano. A pocos pasos de camino al castillo, puedes disfrutar de
+              los mejores helados del mundo en Cadwalader's, cuyo ingrediente
+              secreto se rumores que son algas marinas de la localidad. Otra
+              cosa por la que es famosa Cricieth es por haber ganado el premio
+              “Gales en flor” durante cinco años seguidos por sus espectaculares
+              muestras florales alrededor de la ciudad. También vio nacer a
+              David Lloyd George, el único galés que ha sido Primer Ministro del
+              Reino Unido.
+            </p>
+            <button class="homeland-places__card-button">
+              Compra esta obra como NFT
+            </button>
+          </div>
+          <div class="homeland-places__card-content">
+            <h2 class="homeland-places__card-title">Berea, EE. UU.</h2>
+            <img
+              src="./images/Places_image_2.png"
+              alt=""
+              class="homeland-places__card-image"
+            />
+            <div class="homeland-places__card-header">
+              <p class="homeland-places__card-header-title">Artista</p>
+              <p class="homeland-places__card-author">
+                Travis Turner, autor y editor
+              </p>
+            </div>
+            <p class="homeland-places__card-text">
+              Berea es una pequeña ciudad ubicada en la parte central de
+              Kentucky. La ciudad está rodeada por hermosos bosques y campos. Es
+              conocida como la capital de la artesanía del estado, y sus
+              visitantes hallarán infinitas posibilidades para ir de compras:
+              tiendas de joyas, velas y artículos de madera artesanales;
+              galerías, talleres de vidrio y más. La ciudad celebra un festival
+              anual que rinde tributo al "spoonbread", un platillo local hecho
+              de pan de maíz y que se sirve con una cuchara de madera. Aunque,
+              probablemente es mejor conocida por su universidad. El Berea
+              College fue fundado en 1855 y fue la primera universidad sureña
+              integrada racialmente, así como la primera en ser coeducacional.
+              Algo que en cierta manera la hace única, es que no cobra
+              colegiatura: cada estudiante recibe una beca del 100%.
+            </p>
+            <button class="homeland-places__card-button">
+              Compra esta obra como NFT
+            </button>
+          </div>
+          <div class="homeland-places__card-content">
+            <h2 class="homeland-places__card-title">Muramvya, Burundi</h2>
+            <img
+              src="./images/Places_image_3.png"
+              alt=""
+              class="homeland-places__card-image"
+            />
+            <div class="homeland-places__card-header">
+              <p class="homeland-places__card-header-title">Artista</p>
+              <p class="homeland-places__card-author">
+                Grevisse Kenguruka, editor técnico
+              </p>
+            </div>
+            <p class="homeland-places__card-text">
+              Muramvya es una de las 18 provincias de Burundi. Durante la época
+              del reino, Muramvya fue su capital; y en 2017, gracias a su
+              paisaje cultural y natural, se añadió a la Lista provisional de
+              patrimonio mundial de la UNESCO. Se encuentra ubicada en el centro
+              de Burundi, entre las capitales política y económica del país. Su
+              clima es más bien frío durante la noche, pero durante el día,
+              podrías pensar que estás en el paraíso. A sus 2,665 metros (8,743
+              ft) sobre el nivel del mar, el Monte Teza es uno de los lugares
+              más fríos de la provincia. Pero es justo esa brisa fresca la que
+              da pie a una de las más grandes plantaciones de té y café del
+              país, y que representa la mayoría de las exportaciones de Burundi.
+              El Parque nacional de Kibira, una de las mayores reservas de vida
+              silvestre para los simios, ocupa parte de cuatro provincias,
+              incluyendo Muramvya. Este parque nacional se encuentra en las
+              cúspides de las hermosas montañas de la Divisoria Congo-Nilo,
+              cuyas alturas oscilan entre 1,550 y 2,660 metros. Está lleno de
+              hermosa vegetación, y es una fuente para los diversos ríos y
+              arroyos que proporcionan agua alrededor del país.
+            </p>
+            <button class="homeland-places__card-button">
+              Compra esta obra como NFT
+            </button>
+          </div>
+          <div class="homeland-places__card-content">
+            <h2 class="homeland-places__card-title">Merida, Yucatán</h2>
+            <img
+              src="./images/Places_image_4.jpg"
+              alt=""
+              class="homeland-places__card-image"
+            />
+            <div class="homeland-places__card-header">
+              <p class="homeland-places__card-header-title">Artista</p>
+              <p class="homeland-places__card-author">
+                Mauricio Cansino, desarrollador frontend
+              </p>
+            </div>
+            <p class="homeland-places__card-text">
+              Mérida, la animada capital del estado de Yucatán en México, tiene una rica herencia maya y colonial. El punto central de la ciudad es la Plaza de la Independencia, que tiene a sus costados la Catedral de Mérida, similar a una fortaleza, y la Iglesia de la Tercera Orden, de caliza blanca.
+            </p>
+            <button class="homeland-places__card-button">
+              Compra esta obra como NFT
+            </button>
+          </div>
         </section>
       </main>
       <footer class="footer">
-        <p class="footer__copyright">© 2025. Mauricio Cansino</p>
+        <p class="footer__text">&copy; 2025 Mauricio Cansino</p>
       </footer>
     </div>
   </body>

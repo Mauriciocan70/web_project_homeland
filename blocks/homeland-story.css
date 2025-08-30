@@ -1,0 +1,188 @@
+.homeland-story {
+  display: flex;
+  flex-direction: column;
+  max-width: 830px;
+  margin: 0 auto;
+  padding-bottom: 118px;
+  padding-right: 154px;
+}
+
+.homeland-story__subtitle {
+  font-family: "Inter-Black";
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  text-align: left;
+}
+
+.homeland-story__description {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.homeland-story__author {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: right;
+}
+
+.homeland-story__text {
+  font-family: "Inter-Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+}
+@media screen and (max-width: 1024px) {
+  .homeland-story {
+    width: 100%;
+    margin: 0;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 88px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__subtitle {
+    font-size: 45px;
+    line-height: 49px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__description {
+    box-sizing: border-box;
+  }
+
+  .homeland-story__author {
+    box-sizing: border-box;
+  }
+
+  .homeland-story__text {
+    font-size: 16px;
+    line-height: 163%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  .homeland-story {
+    width: 100%;
+    margin: 0;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 88px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__subtitle {
+    font-family: "Inter-Black";
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 49px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__description {
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__author {
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__text {
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 544px) {
+  .homeland-story {
+    width: 100%;
+    height: auto;
+    padding-bottom: 64px;
+    box-sizing: border-box;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .homeland-story__subtitle {
+    font-size: 32px;
+    line-height: 35px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__description {
+    font-size: 24px;
+    line-height: 30px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__author {
+    font-size: 24px;
+    line-height: 34px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__text {
+    font-size: 16px;
+    line-height: 163%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 320px) {
+  .homeland-story {
+    width: 100%;
+    height: auto;
+    padding-bottom: 64px;
+    box-sizing: border-box;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .homeland-story__subtitle {
+    font-family: "Inter-Black";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__description {
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__author {
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+    box-sizing: border-box;
+  }
+
+  .homeland-story__text {
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    box-sizing: border-box;
+  }
+}
