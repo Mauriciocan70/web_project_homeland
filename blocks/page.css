@@ -14,10 +14,9 @@
     background-color: #2a2c2f;
     max-width: 100%;
     box-sizing: border-box;
-
-    height: auto;
-  }
+    height: auto;  }
 }
+
 @media screen and (max-width: 768px) {
   .page {
     font-family: "Inter-Black", "Inter-Regular", sans-serif;
@@ -28,6 +27,7 @@
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 544px) {
   .page {
     font-family: "Inter-Black", "Inter-Regular", sans-serif;
@@ -37,6 +37,7 @@
     box-sizing: border-box;
   }
 }
+
 @media screen and (max-width: 320px) {
   .page {
     font-family: "Inter-Black", "Inter-Regular", sans-serif;

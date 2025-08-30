@@ -7,6 +7,7 @@
   padding-bottom: 24px;
   padding-top: 10px;
 }
+
 @media screen and (max-width: 1024px) {
   .footer {
     font-size: 14px;
@@ -14,6 +15,7 @@
     padding-top: 10px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .footer {
     font-family: "Inter-Regular";
@@ -24,6 +26,7 @@
     padding-top: 10px;
   }
 }
+
 @media screen and (max-width: 544px) {
   .footer {
     font-size: 14px;
@@ -32,6 +35,7 @@
     padding-top: 10px;
   }
 }
+
 @media screen and (max-width: 320px) {
   .footer {
     font-family: "Inter-Regular";

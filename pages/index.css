@@ -1,11 +1,19 @@
-@import url(../vendor/normalize.css);
+@import url("../vendor/normalize.css");
 
-@import url(../blocks/footer.css);
+@import url("../vendor/fonts.css");
 
-@import url(../blocks/content.css);
+@import url("../blocks/page.css");
 
-@import url(../blocks/header.css);
+@import url("../blocks/header.css");
 
-@import url(../blocks/lead.css);
+@import url("../blocks/content.css");
 
-@import url(../blocks/page.css);
+@import url("../blocks/homeland-art.css");
+
+@import url("../blocks/homeland-story.css");
+
+@import url("../blocks/footer.css");
+
+@import url("../blocks/homeland-gallery.css");
+
+@import url("../blocks/homeland-places.css");

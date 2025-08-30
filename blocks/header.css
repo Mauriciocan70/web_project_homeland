@@ -34,6 +34,7 @@
     font-family: "Inter-Black";
   }
 }
+
 @media screen and (max-width: 768px) {
   .header {
     padding-top: 30px;
@@ -52,6 +53,7 @@
     font-family: "Inter-Black";
   }
 }
+
 @media screen and (max-width: 544px) {
   .header {
     padding-top: 20px;
@@ -70,6 +72,7 @@
     padding-bottom: 64px;
   }
 }
+
 @media screen and (max-width: 320px) {
   .header {
     font-family: "Inter-Black";
